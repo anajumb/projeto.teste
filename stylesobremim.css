@@ -1,0 +1,110 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+nav{
+    display: inline-flex;
+    background-color: black;
+    width: 100%;
+    opacity: 50%;
+}
+
+nav:hover{
+    opacity: 100%;
+}
+
+.logo{
+    width: 200px;
+    height: 55px;
+    margin: 1%;
+}
+
+.sobremim{
+    height: 55px;
+    width: 55px;  
+}
+
+.sobremim:hover{
+    cursor: pointer;
+}
+
+li{
+    color: aliceblue;
+    list-style: none;
+}
+
+body{
+    background-color: rgb(45, 45, 45) ;
+}
+
+header{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    padding: 2%;
+    justify-content: center;
+}
+
+.num{
+    width: 280px;
+    height: 210px;
+    padding: 2%;
+    display: flex;
+}
+
+.num:hover{
+    width: 330px;
+    height: 220px;
+    padding: 3%;
+}
+
+.imagem{
+    width: 250px;
+    height: 220;
+}
+
+.imagem:hover{
+    width: 380px;
+    height: 260px;
+    padding: 3%;
+}
+
+.linav{
+    padding-top: 20px;
+    width: 8%;
+}
+
+.linav:hover{
+    cursor: pointer;
+    font-size: 20px;
+}
+.segundaul{
+    display: inline-flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin: 1%;
+}
+
+.redes{
+    width: 230px;
+    height: 200;
+}
+
+.redes:hover{
+    width: 280px;
+    height: 190px;
+    padding: 2%;
+}
+
+.cards{
+    display: flex;
+    padding: 2%;
+    justify-content: center;
+}
+
+.sites{
+    margin-left: 3%;
+}

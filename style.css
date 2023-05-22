@@ -1,0 +1,106 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    /* box-sizing: border-box; */
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    margin: 6%;
+    margin-bottom: 12%;
+    font-family: Arial;
+}
+
+.perfil{
+    width: 160px;
+    text-align: center;
+    cursor: pointer;
+    opacity: 60%;
+}
+
+.perfil:hover{
+    opacity: 100%;
+}
+
+.imgperfil{
+    border-radius: 4%;   
+    width: 160px; 
+    border: 4px;
+    border-style: solid;
+    border-color: black;
+}
+
+.imgperfil:hover{
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(196, 191, 191);
+    padding: 1%;
+}
+
+.caixaperfil{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+button{
+    color: aliceblue;
+    background-color: black;
+    border: 2px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-radius: 4px;
+    padding: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 6%;
+}
+
+button:hover{
+    color: black;
+    background-color: rgb(228, 230, 230);
+    transition: 220ms;
+    cursor: pointer;
+}
+
+.buttonfinal{
+    display: flex;
+    justify-content: center;
+}
+.imglogo{
+    margin-top: 13%;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+.adcperfil{
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 4%;
+    padding: 29%;
+}
+.adcperfil:hover{
+    border-color: aliceblue;
+    cursor: pointer;
+}
+
+.box{
+    width: 700px;
+}
